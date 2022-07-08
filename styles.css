@@ -1,0 +1,71 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(ian-valerio-CAFq0pv9HjY-unsplash.jpg) no-repeat center center/
+    cover;
+}
+
+.container {
+  width: 850px;
+  height: 450px;
+}
+
+.header {
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+  color: #fff;
+  background: #262626;
+  padding: 10px 5px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 5px;
+  opacity: 0.85;
+}
+
+.main-content {
+  width: 100%;
+  /* height: 300px; */
+  background: #fff;
+  border-radius: 15px;
+  padding: 50px 40px;
+  box-shadow: 0 0 10px;
+  opacity: 0.85;
+}
+
+.main-content .text-area {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.main-content .person {
+  font-size: 1.6rem;
+  color: red;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.button-area button {
+  background: #262626;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  margin: 20px 0 0 0;
+  border-radius: 5px;
+}
+
+.button-area button:hover {
+  background: lightgray;
+  color: #000;
+}
